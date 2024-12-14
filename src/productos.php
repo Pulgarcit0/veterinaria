@@ -51,6 +51,13 @@ $user_id = $_SESSION['user_id'];
     <div class="shop-container">
         <h2>Productos</h2>
 
+        <!-- Botón Crear Producto para Administradores -->
+        <?php if ($user_id <= 2): ?>
+            <div class="text-end mb-3">
+                <a href="crear_producto.php" class="btn btn-success">+ Crear Producto</a>
+            </div>
+        <?php endif; ?>
+
         <div class="search-bar">
             <input type="text" placeholder="Búsqueda" id="searchInput">
             <button class="btn-buscar">Buscar</button>
