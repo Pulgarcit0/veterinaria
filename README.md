@@ -3,13 +3,18 @@
 # Copia los archivos del proyecto
 Ve al directorio donde tienes el respaldo de MascotaShop.
 Copia todos los archivos y carpetas del proyecto dentro de:
+```bash
 C:\xampp\htdocs\mascotashop
-
+```
 # Configuración de la base de datos
+```bash
+
 Abre phpMyAdmin desde el navegador:
+```
+```bash
 
 http://localhost/phpmyadmin
-
+```
 # Crea una nueva base de datos:
 Nombre: mascotashop.
 Codificación: utf8_general_ci.
@@ -22,15 +27,18 @@ Haz clic en Continuar.
 # Configurar config.php
 Abre el archivo config.php del proyecto MascotaShop en un editor de texto (por ejemplo, Notepad++ o Visual Studio Code).
 Asegúrate de que tenga la siguiente configuración para XAMPP:
-
-define('DB_HOST', 'localhost');        // Host del servidor
-define('DB_USER', 'root');            // Usuario de la base de datos (predeterminado en XAMPP)
-define('DB_PASS', '');                // Contraseña de la base de datos (vacío por defecto en XAMPP)
-define('DB_NAME', 'mascotashop');     // Nombre de la base de datos
+```bash
+ define('DB_HOST', 'localhost');        // Host del servidor
+# define('DB_USER', 'root');            // Usuario de la base de datos (predeterminado en XAMPP)
+# define('DB_PASS', '');                // Contraseña de la base de datos (vacío por defecto en XAMPP)
+# define('DB_NAME', 'mascotashop');     // Nombre de la base de datos
 # Probar el proyecto
+```
 Abre tu navegador y accede al proyecto:
-
+```bash
 http://localhost/mascotashop
+```
+
 # Verifica que:
 El proyecto cargue correctamente.
 Los datos de la base de datos (productos, usuarios, etc.) se muestren correctamente.
